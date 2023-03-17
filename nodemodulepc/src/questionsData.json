@@ -1,0 +1,26 @@
+[
+  {
+    "question": "Avez-vous de la fièvre?",
+    "criteria": "symptoms",
+    "options": [
+      {"option": "Oui", "value": "fièvre"},
+      {"option": "Non", "value": ""}
+    ]
+  },
+  {
+    "question": "Ressentez-vous des douleurs thoraciques?",
+    "criteria": "symptoms",
+    "options": [
+      {"option": "Oui", "value": "douleur thoracique"},
+      {"option": "Non", "value": ""}
+    ]
+  },
+  {
+    "question": "Avez-vous des nausées?",
+    "criteria": "symptoms",
+    "options": [
+      {"option": "Oui", "value": "nausées"},
+      {"option": "Non", "value": ""}
+    ]
+  }
+]

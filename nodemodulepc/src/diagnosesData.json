@@ -1,0 +1,7 @@
+[  {    "diagnosis": "Grippe",    "symptoms": ["fièvre", "fatigue", "douleurs musculaires"]
+  },
+  {
+    "diagnosis": "Angine",
+    "symptoms": ["fièvre", "douleur thoracique", "maux de gorge"]
+  }
+]
