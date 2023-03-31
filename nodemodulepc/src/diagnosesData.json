@@ -1,7 +1,14 @@
-[  {    "diagnosis": "Grippe",    "symptoms": ["fièvre", "fatigue", "douleurs musculaires"]
+[
+  {
+    "diagnosis": "Exsudat",
+    "couleur": ["Jaune"],
+    "taille": ["Petit"],
+    "nombre": ["Multiple"]
   },
   {
-    "diagnosis": "Angine",
-    "symptoms": ["fièvre", "douleur thoracique", "maux de gorge"]
+    "diagnosis": "Hémorragie",
+    "couleur": ["Rouge"],
+    "taille": ["Grand"],
+    "nombre": ["Unique"]
   }
 ]

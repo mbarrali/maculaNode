@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import MedicalDecisionTree from './MedicalDecisionTree';
 import reportWebVitals from './reportWebVitals';
+import questionsData from './questionsData.json';
+import diagnosesData from './diagnosesData.json';
+import './MedicalDecisionTree.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <MedicalDecisionTree  
+      title="Exsudat ou Hémorragie"
+      questionsData={questionsData}
+      diagnosesData={diagnosesData}
+    />
   </React.StrictMode>
 );
 

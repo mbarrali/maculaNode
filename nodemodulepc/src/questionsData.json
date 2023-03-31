@@ -1,26 +1,27 @@
+
 [
   {
-    "question": "Avez-vous de la fièvre?",
-    "criteria": "symptoms",
+    "question": "Quelle est la couleur?",
+    "criteria": "couleur",
     "options": [
-      {"option": "Oui", "value": "fièvre"},
-      {"option": "Non", "value": ""}
+      { "option": "Jaune", "nextQuestion": 2 },
+      { "option": "Rouge", "nextQuestion": 2 }
     ]
   },
   {
-    "question": "Ressentez-vous des douleurs thoraciques?",
-    "criteria": "symptoms",
+    "question": "Quelle est la taille?",
+    "criteria": "taille",
     "options": [
-      {"option": "Oui", "value": "douleur thoracique"},
-      {"option": "Non", "value": ""}
+      { "option": "Petit", "nextQuestion": 3 },
+      { "option": "Grand", "nextQuestion": 3 }
     ]
   },
   {
-    "question": "Avez-vous des nausées?",
-    "criteria": "symptoms",
+    "question": "Quel est le nombre?",
+    "criteria": "nombre",
     "options": [
-      {"option": "Oui", "value": "nausées"},
-      {"option": "Non", "value": ""}
+      { "option": "Unique", "nextQuestion": null },
+      { "option": "Multiple", "nextQuestion": null }
     ]
   }
 ]
